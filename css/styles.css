@@ -27,9 +27,14 @@ ul {
   padding-left: 0px;
 }
 
-.conteiner {
+img {
+  display: block;
+}
+
+.container {
   width: 1158px;
   margin: 0 auto;
+  border: 2px solid navy
 }
 
 .link {
@@ -41,11 +46,13 @@ ul {
 }
 
 .header {
+  padding-top: 24px;
   border-bottom: 1px solid#E7E9FC;
 }
 
 .navigation {
   display: inline-block;
+  margin-right: 332px;
 }
 
 .logo {
@@ -57,13 +64,17 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   width: 44px;
-  display: inline-block;
+  margin-right: 74px;
 }
 
 .logo-second {
   width: 71px;
   color: var(--title-text-color);
   display: inline-block;
+}
+
+.menu-items {
+  margin-right: 40px;
 }
 
 .menu-items-link {
@@ -85,6 +96,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 
 .list-items-link {
@@ -98,11 +110,13 @@ ul {
 }
 
 .address {
+  margin-right: 156px;
   font-style: normal;
 }
 
 .hero-page {
   background-color: var(--title-text-color);
+  padding: 188px;
 }
 
 .main-title {
@@ -112,6 +126,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--mane-bacgraund-color);
+  margin-bottom: 48px;
 }
 
 .button {
@@ -123,11 +138,23 @@ ul {
   color: var(--mane-bacgraund-color);
   background-color: #4D5AE5;
   cursor: pointer;
+  padding: 16px 32px;
 }
 
 .button:hover,
 .button:focus {
   background-color: #404bbf;
+}
+
+.second-section,
+.fourth-section {
+  padding: 120px 0px;
+}
+
+.second-section-list>li,
+.fourth-section-list {
+  margin-right: 24px;
+
 }
 
 .principles {
@@ -136,6 +163,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 
 .principles-text {
@@ -144,6 +172,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.third-section {
+  padding-bottom: 120px;
+}
+
+.images-third-section {
+  margin-right: 24px;
 }
 
 .third-section-title,
@@ -155,14 +191,20 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: var(--title-text-color);
+  margin-bottom: 72px;
 }
 
 .fourth-section {
   background-color: var(--bottom-text-color);
 }
 
-.fourth-section-list {
+.fourth-section-items {
   background-color: var(--mane-bacgraund-color);
+  padding-bottom: 32px;
+}
+
+.fourth-section-items>img {
+  margin-bottom: 32px;
 }
 
 .staff {
@@ -171,6 +213,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 
 .staff-text {
@@ -184,6 +227,11 @@ ul {
 
 .page-bottom {
   background-color: var(--title-text-color);
+  padding: 100px 0px;
+}
+
+.bottom>a {
+  margin-bottom: 16px;
 }
 
 .bottom-logo {
@@ -192,6 +240,7 @@ ul {
   line-height: 1.2em;
   color: var(--bottom-text-color);
 }
+
 
 .bottom-text {
   font-weight: 400;
